@@ -26,7 +26,11 @@ def index_view(request):
     now_time = dt.now().time()
     now_minute = dt.now().minute
 
+<<<<<<< HEAD
     if now_minute == 0 or now_minute == 15 or now_minute == 30 or now_minute < 45 :
+=======
+    if now_minute == 0 or now_minute == 15 or now_minute == 30 or now_minute < 40 :
+>>>>>>> 5b744b5dacc4eec2022b27003b68580972539abf
         all_images = get_all_images() #stores jsondict
         some_images = get_some_images(all_images) #stores imagelink
 
