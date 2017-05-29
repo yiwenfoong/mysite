@@ -1,6 +1,6 @@
 import json
 import os
-import re
+import requests
 from datetime import datetime as dt
 from django.db import models
 from checkpoint.models import image
