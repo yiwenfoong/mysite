@@ -1,0 +1,20 @@
+<form action="" method="post">
+        <tr>
+          <th><label for="theme">Theme:</label></th>
+          <td><input type="text" name="theme"/></td>
+        </tr></br></br>
+
+        <tr>
+          <th><label for="option1_text">Option 1:</label></th>
+          <td><input type="text" name="option1_text"/></td>
+        </tr></br></br>
+
+        <tr>
+          <th><label for="option2_text">Option 2:</label></th>
+          <td><input type="text" name="option2_text"/></td>
+        </tr></br></br>
+
+        {% csrf_token %}
+        <input type="submit" value="OK">
+
+</form>

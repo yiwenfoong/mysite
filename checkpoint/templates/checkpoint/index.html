@@ -1,0 +1,8 @@
+<p> hello
+
+  {% load static %}
+
+  {% for o in image %}
+  <p> {{ o }}
+    <p><img src="{{ o }}" alt="Error">
+      {% endfor %}
